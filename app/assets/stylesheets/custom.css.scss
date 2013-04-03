@@ -1,17 +1,22 @@
-$blueMain: #1BA47E;
-$blueDark: #096B50;
-$blueLight: #4ED2AD;
+$blueMain: #0489D0;
+$blueDark: #015987;
+$blueLight: #6BBCE8;
 
-$brownMain: #A3500D;
-$brownLight: #BC7A46;
+$greenMain: #4DEE00;
+$greenDark: #329B00;
+$greenLight: #9BF66F;
 
-$yellowMain: #FDA55E;
-$yellowLight: #FDBC88;
+$brownMain: #A3A600;
+$brownLight: #BDBF30;
 
-$redMain: #FB5F29;
-$redDark: #A3340D;
+$yellowMain: #FBFF00;
+$yellowLight: #FDFF73;
 
-$pinkMain: #FDA688;
+$redMain: #F60030;
+$redDark: #A0001F;
+$redLight: #FB3F64;
+
+$pinkMain: #FB718C;
 
 /* ********** Scaffolding ********** */
 
@@ -26,7 +31,7 @@ $linkColorHover: darken($linkColor, 5%) ;
 /* ********** Colors ********** */
 
 $blue: $blueMain;
-//$green: ;
+$green: $greenMain;
 $red: $redMain;
 $yellow: $yellowMain;
 //$orange: ;
@@ -218,4 +223,8 @@ p {
 
 .clearfix {
   clear: both;
+}
+
+.row {
+  margin-top: 20px;
 }
