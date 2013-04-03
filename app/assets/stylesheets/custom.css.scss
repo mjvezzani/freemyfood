@@ -1,0 +1,221 @@
+$blueMain: #1BA47E;
+$blueDark: #096B50;
+$blueLight: #4ED2AD;
+
+$brownMain: #A3500D;
+$brownLight: #BC7A46;
+
+$yellowMain: #FDA55E;
+$yellowLight: #FDBC88;
+
+$redMain: #FB5F29;
+$redDark: #A3340D;
+
+$pinkMain: #FDA688;
+
+/* ********** Scaffolding ********** */
+
+//$bodyBackground: ;
+$textColor: lighten($yellowLight, 10%);
+
+/* ********** Links ********** */
+
+$linkColor: $redMain;
+$linkColorHover: darken($linkColor, 5%) ;
+
+/* ********** Colors ********** */
+
+$blue: $blueMain;
+//$green: ;
+$red: $redMain;
+$yellow: $yellowMain;
+//$orange: ;
+$pink: $pinkMain;
+//$purple: ;
+
+/* ********** Sprites ********** */
+//$iconSpritePath: '../img/glyphicons-halflings.png';
+//$iconWhiteSpritePath: '../img/glyphicons-halflings-white.png';
+
+/* ********** Grid system ********** */
+
+//$gridColumns: 12;
+//$gridColumnWidth: 60px;
+//$gridGutterWidth: 20px;
+//$gridColumnWidth1200: 70px;
+//$gridGutterWidth1200: 30px;
+//$gridColumnWidth768: 42px;
+//$gridGutterWidth768: 20px;
+
+/* ********** Typography ********** */
+
+$sansFontFamily: 'Abel', Helvetic, sans-serif;
+$serifFontFamily: 'Adamina', serif;
+$monoFontFamily: 'Typewriter';
+$baseFontSize: 14px;
+$baseFontFamily: $sansFontFamily;
+$baseLineHeight: 15px;
+$altFontFamily: $serifFontFamily;
+$headingsFontFamily: inherit;
+$headingsFontWeight: bold;
+$headingsColor: inherit;
+$fontSizeLarge: $baseFontSize * 1.25;
+$fontSizeSmall: $baseFontSize * 0.85;
+$fontSizeMini: $baseFontSize * 0.75;
+$paddingLarge: 10px;
+$paddingSmall: 3px;
+$paddingMini: 1px;
+//$baseBorderRadius: ;
+//$borderRadiusLarge: ;
+//$borderRadiusSmall: ;
+$heroUnitBackground: darken($blueMain, 15%);
+//$heroUnitHeadingColor: inherit;
+//$heroUnitLeadColor: inherit;
+
+/* ********** Tables ********** */
+
+//$tableBackground: transparent;
+//$tableBackgroundAccent: ;
+$tableBackgroundHover: $redDark;
+//$tableBorder: ;
+
+/* ********** Forms ********** */
+
+//$placeholderText: ;
+//$inputBackground: ;
+//$inputBorder: ;
+//$inputBorderRadius: ;
+//$inputDisabledBackground: ;
+//$formActionsBackground: ;
+//$btnPrimaryBackground: $linkColor;
+//$btnPrimaryBackgroundHightlight: darken($white, 10%);
+
+
+/* ********** Form states & Alerts ********** */
+
+//$warningText: ;
+//$warningBackground: ;
+//$errorText: ;
+//$errorBackground: ;
+//$successText: ;
+//$successBackground: ;
+//$infoText: ;
+//$infoBackground: ;
+
+/* ********** Navbar ********** */
+
+//$navbarHeight: ;
+//$navbarBackground: ;
+//$navbarBackgroundHighlight: ;
+//$navbarText: ;
+//$navbarBrandColor: $navbarLinkColor;
+//$navbarLinkColor: ;
+//$navbarLinkColorHover: ;
+//$navbarLinkColorActive: $navbarLinkColorHover;
+//$navbarLinkBackgroundHover: transparent;
+//$navbarLinkBackgroundActive: $navbarBackground;
+//$navbarSearchBackground: lighten($navbarBackground, 25%);
+//$navbarSearchBackgroundFocus: ;
+//$navbarSearchBorder: darken($navbarSearchBackground, 30%);
+//$navbarSearchPlaceholderColor: ;
+//$navbarCollapseWidth: ;
+//$navbarCollapseDesktopWidth: $navbarCollapseWidth + 1;
+
+/* ********** Dropdowns ********** */
+
+//$dropdownBackground: ;
+//$dropdownBorder: rgba(0,0,0,.2);
+//$dropdownLinkColor: ;
+//$dropdownLinkColorHover: ;
+//$dropdownLinkBackgroundHover: $linkColor;
+
+@import "bootstrap";
+
+body {
+  padding-top: 60px;
+  background-image: url('experiment.jpg');
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+  padding: 5px;
+  margin-top: 50px;
+  clear: both;
+}
+
+p {
+  color: $blueDark;
+  border-radius: 12px 0px 12px 0px;
+}
+
+.second {
+  color: $yellowLight;
+  border-radius: 0px 12px 0px 12px;
+}
+
+.navbar {
+  margin-top: 20px;
+}
+
+#logo {
+  font-size: 30px;
+}
+
+.hero-unit {
+  border-radius: 50px 0px 50px 0px;
+  border: 2px solid $brownMain;
+}
+
+.extra {
+  background-color: $blueLight;
+  width: 85%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.inset {
+  border: 4px outset $brownLight;
+  padding: 10px;
+  background-color: darken($brownMain, 20%);
+  border-radius: 8px 0px 8px 0px;
+}
+
+.text {
+  text-shadow: #111 3px 3px 2px;
+}
+
+.box {
+  box-shadow: black 3px 3px 5px;
+}
+
+.box2 {
+  box-shadow: white 0px 0px 10px;
+}
+
+.btn {
+  border-radius: 7px 0px 7px 0px;
+}
+
+.dotted {
+  border-top: 5px ridge $pinkMain;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.redBackground {
+  background-color: $yellowLight;
+  border: 2px solid $redDark;
+  padding: 20px;
+}
+
+.blueBackground {
+  background-color: $blueDark;
+  border: 2px solid $pinkMain;
+  padding: 20px;
+}
+
+.clearfix {
+  clear: both;
+}
