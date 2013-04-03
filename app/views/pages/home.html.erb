@@ -1,15 +1,18 @@
 <% provide(:title, 'Home') %>
 
 <div class="center hero-unit">
-  <h1 class="text inset">Welcome to the Sample App</h1>
+  <h1 class="text inset">Welcome to Free My Food!</h1>
 
-  <h2 class="text">
-    This is the home page for the
-    <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
+  <h3 class="text">
+    This is the home page for <span class="">Free My Food!</span>. A place for
+    people to learn a bit more about where their food comes from and how economics
+    and politics influence their food options.
   </h2>
-
-  <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary box" %>
+  <div class="row">
+    <div class="span2 offset8">
+      <%= link_to "Learn More!", about_path, class: "btn btn-large btn-primary box pull-right" %>
+    </div>
+  </div>
 </div>
 
 <div class="row">
